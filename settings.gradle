@@ -1,2 +1,4 @@
 rootProject.name = 'multimodule_spring'
+include 'module-api'
+include 'module-common'
 
