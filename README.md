@@ -1,4 +1,4 @@
-# Spring Boot를 사용한 MultiModule 실습입니다.
+# Spring Boot를 사용한 간단한 MultiModule 실습 예제입니다.
 
 
 
