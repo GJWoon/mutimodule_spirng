@@ -9,6 +9,8 @@
         </processorPath>
         <module name="multimodule_spring.module-api.main" />
         <module name="multimodule_spring.module-api.test" />
+        <module name="multimodule_spring.module-common.test" />
+        <module name="multimodule_spring.module-common.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

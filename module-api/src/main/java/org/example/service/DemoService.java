@@ -1,6 +1,8 @@
 package org.example.service;
 
 import lombok.RequiredArgsConstructor;
+import org.example.enums.CodeEnum;
+import org.example.exception.CustomException;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -14,6 +16,14 @@ public class DemoService {
 
          return commonService.common();
 
+    }
+
+    public String exception(){
+
+        if(true){
+            throw new CustomException(CodeEnum.UNKNOWN_ERROR);
+        }
+        return "excpetion";
     }
 }
 

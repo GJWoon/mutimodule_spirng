@@ -19,4 +19,9 @@ public class DemoController {
         return demoService.getCommonService();
     }
 
+
+    @GetMapping("/exception")
+    public String exception(){
+        return demoService.exception();
+    }
 }
